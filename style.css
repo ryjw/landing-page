@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px;
+}
+
+.header-top {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+ul {
+    padding: 0 10px;
+}
+
+.header-bottom {
+    display: flex;
+    flex: 1;
+}
+
+.main-img {
+    height: 200px;
+    width: 400px;
+    flex: 1;
+}
+
+.title-left {
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+}
