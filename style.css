@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 300px;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header-top {
@@ -28,7 +30,6 @@ ul {
 
 .header-bottom {
     display: flex;
-    flex: 1;
 }
 
 .main-img {
@@ -43,4 +44,84 @@ ul {
 
 h1 {
     margin: 0;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.otterpics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.otter {
+    height: 150px;
+    width: 150px;
+}
+
+.ottertext {
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote {
+    margin: 0;
+}
+
+.quote-attribution {
+    margin: 0;
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    padding: 10px 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-text-top {
+    margin: 0;
+}
+
+.footer-text-bottom {
+    margin: 0;
+}
+
+.footer-button {
+
 }
