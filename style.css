@@ -1,19 +1,44 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header, .illustrations, .quotation {
+    height: 350px;
+}
+
+.footer {
+    height: 300px;
+}
+
+.header-button, .footer-button {
+    color: white;
+    background-color:#3882F6;
+    padding: 5px 26px;
+    border-radius: 10px;
 }
 
 .header {
     display: flex;
-    flex-direction: column;
-    padding: 10px 300px;
     background-color: #1F2937;
-    color: white;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
 }
 
 .header-top {
     display: flex;
     padding-bottom: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 li {
@@ -28,18 +53,38 @@ ul {
     padding: 0 10px;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header-bottom {
     display: flex;
 }
 
 .main-img {
-    height: 200px;
     width: 400px;
-    flex: 1;
 }
 
 .title-left {
     flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.header-button {
+    border: 0;
 }
 
 h1 {
@@ -58,6 +103,11 @@ h1 {
     gap: 15px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .otterpics {
     display: flex;
     flex-direction: column;
@@ -73,6 +123,15 @@ h1 {
     width: 150px;
     margin: 5px;
     text-align: center;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+.quotation {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-box {
@@ -80,16 +139,22 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px 400px;
+    width: 320px;
+    align-self: center;
 }
 
 .quote {
     margin: 0;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
 }
 
 .quote-attribution {
     margin: 0;
     align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 .footer {
@@ -104,7 +169,10 @@ h1 {
     padding: 50px 80px;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex-shrink: 0;
+    width: 500px;
+    color: white;
+    background-color: #3882F6;
 }
 
 .footer-text {
@@ -123,5 +191,5 @@ h1 {
 }
 
 .footer-button {
-
+    border: 2px solid white;
 }
